@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:gravity="center"
+    android:textAlignment="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:backgroundTint="@color/blue"
+        android:insetBottom="0dp"
+        android:text="@string/toast" />
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:background="@color/yellow"
+        android:text="0"
+        android:textSize="300dp"
+        android:textColor="@color/blue"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:backgroundTint="@color/blue"
+        android:insetTop="0dp"
+        android:text="@string/count"
+        android:onClick="incrementaContador"/>
+
+</LinearLayout>
